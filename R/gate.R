@@ -5,7 +5,7 @@
 #'
 #' @description Geospatial Analysis and Temporal Engineering
 #'
-#' @importFrom stats kmeans
+#' @importFrom stats kmeans cov
 #' @importFrom tibble as_tibble
 #' @importFrom dplyr select rename distinct inner_join rename rowwise mutate ungroup filter group_by group_by_at vars
 #' @importFrom tidyr crossing
@@ -17,4 +17,5 @@
 #' @importFrom stars st_as_stars
 #' @importFrom raster crs
 #' @import spatstat
+#' @importFrom MASS mvrnorm
 NULL

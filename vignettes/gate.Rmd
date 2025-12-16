@@ -1,0 +1,30 @@
+---
+title: "Introduction to gate"
+author: "Trent Henderson"
+date: "`r Sys.Date()`"
+output:
+  rmarkdown::html_vignette:
+    toc: true
+    toc_depth: 4
+vignette: >
+  %\VignetteIndexEntry{Introduction to gate}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.height = 7,
+  fig.width = 7,
+  warning = FALSE,
+  fig.align = "center"
+)
+```
+
+```{r setup, message = FALSE, warning = FALSE}
+library(gate)
+```
+
+More to come soon!
