@@ -1,0 +1,37 @@
+Package: gate
+Type: Package
+Title: Geospatial Analysis and Temporal Engineering
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Trent", "Henderson",
+      email = "trent.henderson1@outlook.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides a suite of functions for the processing, visualisation, and
+    analysis of geospatio-temporal data for the primary purpose of geospatial 
+    optimisation problems.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    stats,
+    tibble,
+    dplyr,
+    tidyr,
+    ggplot2,
+    sf,
+    dismo,
+    raster,
+    spatstat.geom,
+    spatstat,
+    stars
+Suggests: 
+    knitr,
+    rmarkdown,
+    pkgdown,
+    testthat
+RoxygenNote: 7.3.3
