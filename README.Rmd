@@ -33,6 +33,7 @@ Currently, functionality is centred around a set of simple and intuitive functio
 * `allocate` -- allocates data based on lat-long coordinates to a polygon geometry
 * `spatialkernel` -- computes smoothed spatial kernel density estimation using data and geometry information
 * `plot` -- used for various tasks, but only currently plots geospatial kernel density results of `spatialkernel` in `ggplot2`
+* `expectation` -- draw a sample point from a multivariate Gaussian parameterised by longitude and latitude (i.e., $\mathbb{E}[\binom{\text{longitude}}{\text{latitude}}]$)
 
 ### On the segmentation algorithm
 
