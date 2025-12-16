@@ -36,6 +36,11 @@ functions:
   using data and geometry information
 - `plot` – used for various tasks, but only currently plots geospatial
   kernel density results of `spatialkernel` in `ggplot2`
+- `expectation` – draw a sample point from a multivariate Gaussian
+  parameterised by longitude and latitude (i.e.,
+  $\mathbb{E}[\binom{\text{longitude}}{\text{latitude}}]$). This is
+  particularly helpful for finding the expected position of some unit
+  given spatial information
 
 ### On the segmentation algorithm
 
@@ -108,12 +113,12 @@ gs_seg |>
 
 ![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
-Speaking of statistics, we can easily compute smoothed spatial kernel
-density of some data stored in an `sf` object and subsequently plot it
-using `ggplot2` with the generic `plot` function (which has been set up
-to automatically handle objects created by `gate`). Here we will just
-simulate some random data in the Greater Sydney geometry to demonstrate
-the functionality:
+Speaking of statistics, we can easily compute the smoothed spatial
+kernel density of some data stored in an `sf` object and subsequently
+plot it using `ggplot2` with the generic `plot` function (which has been
+set up to automatically handle objects created by `gate`). Here we will
+just simulate some random data in the Greater Sydney geometry to
+demonstrate the functionality:
 
 ``` r
 pts <- sf::st_sample(gs_dis, size = 1e4) |> sf::st_as_sf()
