@@ -21,6 +21,8 @@ in progress. Please check back soon for more!
 
 ## Current functionality
 
+<img src="man/figures/functionality.png" alt="Functionality of the gate package by type." />
+
 Currently, functionality is centred around a set of simple and intuitive
 functions:
 

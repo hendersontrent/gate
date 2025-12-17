@@ -25,6 +25,8 @@ devtools::install_github("hendersontrent/gate")
 
 ## Current functionality
 
+<img src="man/figures/functionality.png" alt="Functionality of the gate package by type." />
+
 Currently, functionality is centred around a set of simple and intuitive functions:
 
 * `dissolve` -- dissolve boundaries from multiply polygons into a single geometric polygon
